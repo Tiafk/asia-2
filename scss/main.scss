@@ -1,0 +1,53 @@
+@import './about';
+@import './slider';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-family: 'Unbounded';
+    display: flex;
+    // font-size: 44px;
+    font-size: clamp(33px, 5vw,44px);
+    line-height: 53px;
+    font-weight: 600;
+    color: #262626;
+}
+
+.text {
+    width: 100%;
+    max-width: 842px;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 18px;
+    color: #262626;
+}
+
+@media (max-width:1920) {
+    .main .wrapper .title {
+        font-size: calc(33px + (11 + 11 * 0.7) * ((100vw - 390px) / 1920));
+    }
+}
+
+@font-face {
+    font-family: 'Unbounded';
+    src: url('../fonts/Unbounded-Bold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('../fonts/Raleway-Bold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url('../fonts/Raleway-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}

@@ -1,0 +1,45 @@
+.swiper {
+    max-width: 50%;
+    max-height: 720px;
+
+    .swiper-wrapper{
+        .swiper-slide {
+            .slide_image {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+      color: #fff;
+    }
+
+}
+
+.swiper-pagination-bullet {
+    border: 1px solid #fff;
+    max-width: 10px;
+    max-height: 10px;
+}
+.swiper-pagination-bullet-active {
+    background-color: #BE1D2D;
+}
+
+@media (max-width:800px) {
+    .swiper {
+        display: flex;
+        align-items: end;
+        width: 100%;
+        max-width: none;
+    }
+}
+
+@media (max-width:732px) {
+    .swiper {
+        // max-width: none;
+        max-height: 450px;
+    }
+}

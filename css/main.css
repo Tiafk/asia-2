@@ -1,0 +1,383 @@
+.main {
+  display: flex;
+  font-family: "Raleway-Medium";
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.main .header {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 1110px;
+  justify-content: center;
+  margin: 14px 0 50px;
+  padding: 0 24px;
+}
+.main .header .back {
+  position: absolute;
+  left: 24px;
+  display: flex;
+  align-self: center;
+}
+.main .header .back .arrow {
+  max-width: 16px;
+  margin-right: 12px;
+}
+.main .header .back p {
+  font-size: 14px;
+  font-family: "Unbounded", sans-serif;
+  font-weight: 400;
+  line-height: 130%;
+}
+.main .header .logo {
+  display: flex;
+}
+.main .wrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1158px;
+  padding: 0 24px;
+}
+.main .wrapper .pad {
+  margin-bottom: 50px;
+}
+.main .wrapper .special-pad {
+  margin-bottom: clamp(20px, 3vw, 50px);
+}
+.main .wrapper .about__text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 19px;
+}
+.main .wrapper .about__text .text {
+  width: 100%;
+  max-width: 862px;
+  margin-left: 23.68px;
+}
+.main .wrapper .about__image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  max-height: 494px;
+  border-radius: 24px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.main .wrapper .about__image .my-video {
+  width: 100%;
+  height: 100%;
+}
+.main .wrapper .kichen {
+  max-height: 720px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+.main .wrapper .kichen__wrapper {
+  display: flex;
+  background-color: #F5F5F5;
+}
+.main .wrapper .kichen__slider {
+  display: flex;
+  width: 100%;
+  max-width: 555px;
+}
+.main .wrapper .kichen__slider img {
+  width: 100%;
+}
+.main .wrapper .kichen__text {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  margin: 16px 32px;
+}
+.main .wrapper .kichen__text .p-1 .title {
+  margin-bottom: 23px;
+}
+.main .wrapper .kichen__text .p-1 .text-container .text:first-child {
+  margin-bottom: 15px;
+}
+.main .wrapper .kichen__text .p-2 .subtitle {
+  font-family: "Raleway-Bold";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  margin-bottom: 23px;
+}
+.main .wrapper .kichen__text .p-2 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.main .wrapper .kichen__text .p-2 ul li {
+  display: flex;
+  list-style-type: none;
+}
+.main .wrapper .kichen__text .p-2 ul li p {
+  margin: 0 5px;
+  color: #BE1D2D;
+}
+.main .wrapper .atmosphere {
+  box-sizing: border-box;
+}
+.main .wrapper .atmosphere .title {
+  margin: 0 0 26px 50px;
+}
+.main .wrapper .atmosphere .text {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  width: 100%;
+  max-width: none;
+  gap: 15px;
+  padding: 19px 20px;
+  background-color: #F5F5F5;
+  border-radius: 24px;
+}
+.main .wrapper .atmosphere .text p {
+  max-width: 900px;
+}
+.main .wrapper .current {
+  width: 100%;
+}
+.main .wrapper .current .title {
+  margin: 0 0 20px 32px;
+}
+.main .wrapper .current__wrapper {
+  display: flex;
+  gap: 24px 32px;
+  flex-wrap: wrap;
+}
+.main .wrapper .current__wrapper .card {
+  position: relative;
+  width: 100%;
+  border-radius: 24px;
+  max-width: 348.67px;
+  z-index: 9;
+  overflow: hidden;
+}
+.main .wrapper .current__wrapper .card__image {
+  width: 100%;
+  height: 455px;
+}
+.main .wrapper .current__wrapper .card__image img {
+  width: 100%;
+  height: 100%;
+}
+.main .wrapper .current__wrapper .card .name {
+  font-family: "Raleway-Bold";
+  position: absolute;
+  left: 20px;
+  bottom: 28px;
+  color: #fff;
+  z-index: 10;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 49.5px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+.main .wrapper .current__wrapper .card .gradient {
+  position: absolute;
+  width: 100%;
+  height: 204.75px;
+  bottom: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 33%, rgba(0, 0, 0, 0) 100%);
+}
+.main .wrapper .maps {
+  display: flex;
+  justify-content: space-between;
+}
+.main .wrapper .maps .map {
+  width: 392px;
+  height: 422px;
+  background-color: #bbbaba;
+}
+.main .wrapper .maps__text {
+  margin-left: 32px;
+}
+.main .wrapper .maps__text .text-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 620px;
+  gap: 31px;
+  margin: 33px 0 32px;
+}
+.main .wrapper .maps__text .text-container .p-red {
+  color: #BE1D2D;
+}
+.main .wrapper .maps__text .text-container .text b {
+  font-family: "Unbounded";
+}
+
+@media (max-width: 1920px) {
+  .main .header {
+    margin: 14px 0 calc(37.5px + 12.5 * (100vw - 390px) / 1920);
+  }
+  .main .wrapper .kichen__text {
+    gap: calc(30px + 2.0833333333vw);
+  }
+  .main .wrapper .kichen__slider {
+    max-width: calc(342px + 11.09375vw);
+  }
+  .main .wrapper .about__image {
+    max-height: clamp(152px, 40vw, 494px);
+  }
+}
+@media (max-width: 1100px) {
+  .main .wrapper .about__text {
+    flex-direction: column;
+    align-items: start;
+  }
+  .main .wrapper .about__text .title {
+    margin-bottom: 19px;
+  }
+  .main .wrapper .about__text .text {
+    margin-left: 0;
+  }
+}
+@media (max-width: 1016px) {
+  .text .adapt {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 963px) {
+  .main .wrapper .maps .map {
+    min-width: 342px;
+    width: 342px;
+  }
+}
+@media (max-width: 800px) {
+  .main .wrapper .kichen {
+    max-height: none;
+    width: auto;
+  }
+  .main .wrapper .kichen__wrapper {
+    flex-direction: column;
+  }
+  .main .wrapper .atmosphere .title {
+    margin: 0 0 28px 11px;
+  }
+  .main .wrapper .current .title {
+    margin: 0 0 20px 0;
+  }
+  .main .wrapper .kichen__text {
+    margin: 16px 10px;
+  }
+}
+@media (max-width: 777px) {
+  .main .wrapper .current__wrapper .card__image {
+    height: auto;
+  }
+  .main .wrapper .current__wrapper .card {
+    max-width: none;
+  }
+}
+@media (max-width: 727px) {
+  .main .wrapper .maps {
+    flex-direction: column-reverse;
+  }
+  .main .wrapper .maps__text {
+    margin-left: 0;
+  }
+}
+@media (max-width: 680px) {
+  .main .header {
+    justify-content: space-between;
+    padding-right: 29px;
+  }
+  .main .header .back {
+    position: relative;
+    left: 0;
+  }
+}
+.swiper {
+  max-width: 50%;
+  max-height: 720px;
+}
+.swiper .swiper-wrapper .swiper-slide .slide_image img {
+  width: 100%;
+}
+.swiper .swiper-button-next,
+.swiper .swiper-button-prev {
+  color: #fff;
+}
+
+.swiper-pagination-bullet {
+  border: 1px solid #fff;
+  max-width: 10px;
+  max-height: 10px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #BE1D2D;
+}
+
+@media (max-width: 800px) {
+  .swiper {
+    display: flex;
+    align-items: end;
+    width: 100%;
+    max-width: none;
+  }
+}
+@media (max-width: 732px) {
+  .swiper {
+    max-height: 450px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-family: "Unbounded";
+  display: flex;
+  font-size: clamp(33px, 5vw, 44px);
+  line-height: 53px;
+  font-weight: 600;
+  color: #262626;
+}
+
+.text {
+  width: 100%;
+  max-width: 842px;
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 18px;
+  color: #262626;
+}
+
+@media (max-width: 1920) {
+  .main .wrapper .title {
+    font-size: calc(33px + 18.7 * (100vw - 390px) / 1920);
+  }
+}
+@font-face {
+  font-family: "Unbounded";
+  src: url("../fonts/Unbounded-Bold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway-Bold";
+  src: url("../fonts/Raleway-Bold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway-Medium";
+  src: url("../fonts/Raleway-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}/*# sourceMappingURL=main.css.map */
