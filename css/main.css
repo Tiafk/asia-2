@@ -196,8 +196,13 @@
   justify-content: space-between;
 }
 .main .wrapper .maps .map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  justify-self: center;
   width: 392px;
-  height: 422px;
+  height: 429px;
   background-color: #bbbaba;
 }
 .main .wrapper .maps__text {
@@ -285,6 +290,10 @@
 @media (max-width: 727px) {
   .main .wrapper .maps {
     flex-direction: column-reverse;
+  }
+  .main .wrapper .maps .map {
+    width: 100%;
+    min-width: auto;
   }
   .main .wrapper .maps__text {
     margin-left: 0;
